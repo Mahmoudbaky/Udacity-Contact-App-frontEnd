@@ -6,7 +6,6 @@ import serializeForm from "form-serialize";
 const CreateContact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(e.target);
   };
 
   return (
